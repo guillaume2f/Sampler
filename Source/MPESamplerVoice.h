@@ -29,7 +29,7 @@ public:
         m_Buffer.setSize(2, 1, false, true, false);
     }
 
-    MPESamplerVoice::~MPESamplerVoice() {
+    ~MPESamplerVoice() {
     }
 
     void setCurrentSampleRate(double newRate) {
